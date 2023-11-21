@@ -77,7 +77,6 @@ class Rover:
     def final_position(self):
         return f"Final Position: ({self.x}, {self.y}, {self.direction})"
 
-# Client Code
 if __name__ == "__main__":
     obstacles = [Obstacle(2, 2), Obstacle(3, 5)]
     grid = Grid(size=(10, 10), obstacles=obstacles)
